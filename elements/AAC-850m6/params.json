@@ -1,0 +1,73 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 36,
+        "width": 36
+    },
+    "display": "chatgpt-plugin",
+    "events": {
+        "AAS": {
+            "caption": "openai_response_done",
+            "name": "openai_response_done"
+        }
+    },
+    "fields": {
+        "AAD": {
+            "caption": "url",
+            "doc": "Access the cloudflare api gateway address.",
+            "editor": "StaticText",
+            "name": "url",
+            "rank": 0
+        },
+        "AAE": {
+            "caption": "OpenAPI API key",
+            "doc": "OpenAI API Key",
+            "editor": "StaticText",
+            "name": "openai_api_key",
+            "rank": 1
+        },
+        "AAF": {
+            "caption": "Input Box ID",
+            "doc": "Id of openAI message input box",
+            "editor": "DynamicValue",
+            "name": "input_box_id",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAK": {
+            "caption": "submit button Id",
+            "doc": "id of submit button",
+            "editor": "DynamicValue",
+            "name": "submit_button_id",
+            "rank": 3,
+            "value": "text"
+        }
+    },
+    "has_reset_fn": true,
+    "icon": "ion-android-plane",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "AAG": {
+            "caption": "Openai Input Message",
+            "doc": "Value of input box from ID",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "openai_input_message",
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "Openai Chat Response",
+            "doc": "Openai chat response",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "openai_chat_response",
+            "value": "text"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "categories": {
+        "0": "artificial intelligence (AI)"
+    },
+    "description": "chatgpt-plugin",
+    "image": "//meta-q.cdn.bubble.io/f1706930330101x584402595425600600/DALL%C2%B7E%202024-02-03%2011.18.25%20-%20Create%20a%2032x32%20pixel%20art%20image%20that%20represents%20the%20fusion%20of%20Cloudflare%20and%20AI%20themes.%20The%20image%20should%20visually%20combine%20elements%20associated%20with%20Clou.webp",
+    "license": "open_source",
+    "name": "chatgpt-plugin",
+    "sa_node_version": 18
+}
